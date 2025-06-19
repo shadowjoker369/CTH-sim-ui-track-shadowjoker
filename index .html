@@ -97,7 +97,7 @@
       }
 
       try {
-        const res = await fetch(`https://cth-sim-api.onrender.com/api/sim-info?number=${number}`);
+        const res = await fetch(`https://cth-sim-ui-track.onrender.com/api/sim-info?number=${number}`);
         const data = await res.json();
 
         if (data.error) {
